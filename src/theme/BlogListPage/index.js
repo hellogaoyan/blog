@@ -37,7 +37,7 @@ function BlogListPage(props) {
   } = useDocusaurusContext();
   const isBlogOnlyMode = metadata.permalink === "/";
   const title = isBlogOnlyMode ? siteTitle : "Blog";
-  const description = `不仅仅是前端工程师，分享React.js, HTML, CSS, JavaScript, Node.js 技术以及个人发展、自我提升相关的心得`;
+  const description = ``;
 
   // Get all post views
   const views = useViews(items);
@@ -75,23 +75,23 @@ function BlogListPage(props) {
       <div className="hero">
         <div className="bloghome__intro">
           <animated.h1 style={animatedTexts[0]}>
-            Hello! 我是<span className="intro__name">峰华</span>
+            Hello! 我是<span className="intro__name">GAOYAN</span>
           </animated.h1>
           <animated.p style={animatedTexts[1]}>
-            致力于将编程和艺术相结合，以直观、生动、有趣的方式呈现枯燥的编程概念和原理，助你以最快的速度、愉快的心情掌握编程技巧，进而提升工作竞争力和创新创业能力。
+          产品 医疗 实施 编程
           </animated.p>
           <animated.div style={animatedTexts[2]}>
             <a
-              href="https://space.bilibili.com/302954484?from=search&seid=1788147379248960737"
+              href="https://space.bilibili.com/102700135"
               className="bloghome__follow"
             >
               去B站关注 ({(Math.round(followers) / 10000).toFixed(1)} 万)
             </a>
           </animated.div>
           <animated.p style={animatedTexts[3]}>
-            QQ 1 群：644722908
+          
             <br />
-            QQ 2 群：1004912565
+          
           </animated.p>
           <SocialLinks animatedProps={animatedTexts[4]} />
         </div>
@@ -157,16 +157,14 @@ function SocialLinks({ animatedProps, ...props }) {
   const { isDarkTheme } = useThemeContext();
   return (
     <animated.div className="social__links" style={animatedProps}>
-      <a href="https://space.bilibili.com/302954484">
+      <a href="https://space.bilibili.com/102700135">
         <img
           src={useBaseUrl(`icons/bilibili${isDarkTheme ? "-dark" : ""}.svg`)}
           alt="bilibili"
         />
       </a>
-      <a href="https://www.linkedin.com/in/zxuqian/">
-        <FontAwesomeIcon icon={faLinkedin} />
-      </a>
-      <a href="https://github.com/zxuqian">
+     
+      <a href="https://github.com/hellogaoyan">
         <FontAwesomeIcon icon={faGithub} />
       </a>
       <div class="dropdown dropdown--hoverable">

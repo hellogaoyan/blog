@@ -1,10 +1,10 @@
 const path = require("path");
 
 module.exports = {
-  title: "峰华前端工程师",
-  tagline: "帮助你提升前端开发技能",
+  title: "GAOYAN-BLOG",
+  tagline: "医疗-产品-实施",
   titleDelimiter: "-",
-  url: "https://www.zxuqian.cn",
+  url: "http://www.gaoyantongxue.cn/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "zxuqian", // Usually your GitHub org/user name.
@@ -12,9 +12,9 @@ module.exports = {
   stylesheets: ["https://fonts.font.im/css?family=Raleway:500,700"],
   themeConfig: {
     navbar: {
-      title: "峰华前端工程师",
+      title: "GAOYAN",
       logo: {
-        alt: "峰华",
+        alt: "GAOYAN",
         src: "img/logo.png",
         srcDark: "img/logo.png",
       },
@@ -25,24 +25,27 @@ module.exports = {
           position: "right",
           items: [
             {
-              label: "前端",
-              to: "tags/前端",
+              label: "产品",
+              to: "tags/产品",
             },
             {
-              label: "职业",
-              to: "tags/职业",
+              label: "医疗",
+              to: "tags/医疗",
             },
             {
-              label: "健康",
-              to: "tags/健康",
+              label: "实施",
+              to: "tags/实施",
             },
           ],
         },
+  /*      
         {
           label: "视频",
           position: "right",
           to: "docs/videos/js/01-event-loop/event-loop",
         },
+*/
+        /*
         {
           label: "课程",
           position: "right",
@@ -53,7 +56,13 @@ module.exports = {
             },
           ],
         },
-        {
+
+
+
+*/
+
+/*      
+{
           label: "教程",
           position: "right",
           items: [
@@ -63,16 +72,22 @@ module.exports = {
             },
           ],
         },
+
+        */
+       /*
         {
           href: "https://github.com/zxuqian/zxuqian.cn",
           label: "GitHub",
           position: "right",
         },
+        */
+       /*
         {
           href: "https://github.com/zxuqian/frontend-questions/issues",
           label: "社区讨论",
           position: "right",
         },
+        */
       ],
     },
     footer: {
@@ -111,36 +126,45 @@ module.exports = {
               label: "博客",
               to: "/",
             },
+          /*
             {
               label: "GitHub",
               href: "https://github.com/zxuqian/zxuqian.cn",
             },
+
+            */
+           /*
             {
               label: "Bilibili 哔哩哔哩",
               href: "https://space.bilibili.com/302954484",
             },
+            */
+           /*
             {
               label: "网易云课堂",
               href:
                 "https://study.163.com/course/courseMain.htm?courseId=1210022809&share=2&shareId=480000002172128",
             },
+            */
+           /*
             {
               label: "腾讯课堂",
               href: "https://ke.qq.com/course/2839093?tuin=3850fdc6",
             },
+            */
           ],
         },
         {
           title: "友情链接",
           items: [
             {
-              label: "yuqing521のblog",
-              to: "https://yuqing521.github.io/",
+              label: "gaoyantongxueのblog",
+              to: "http://hellogaoyan.github.io/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 峰华 (张旭乾) Built with Docusaurus.<p>冀ICP备14007097号-3</p>`,
+     /* copyright: `Copyright © ${new Date().getFullYear()} 高言<p>备案号</p>`,*/
     },
     prism: {
       darkTheme: require("prism-react-renderer/themes/vsDark"),
@@ -160,8 +184,8 @@ module.exports = {
           routeBasePath: "/",
           feedOptions: {
             type: "all",
-            title: "峰华前端工程师",
-            copyright: `Copyright © ${new Date().getFullYear()} 峰华 (张旭乾) Built with Docusaurus.<p>冀ICP备14007097号-3</p>`,
+            title: "高言",
+            /*copyright: `Copyright © ${new Date().getFullYear()}高言<p>备案号</p>`,*/
           },
         },
         theme: {
